@@ -1,6 +1,8 @@
 const App = () => (
   <div className="App">
-    <h1>Hello, Paulinho</h1>
+    <h1>Hello, outra coisa.</h1>
+
+    <h2>Teste2</h2>
   </div>
 );
 
