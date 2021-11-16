@@ -1,3 +1,3 @@
-# Car Searching
+# Jogo da memória
 
-An app that helps you to find the best car for you
+Simplesmente um jogo da memória, ué!
