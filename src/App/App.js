@@ -1,10 +1,113 @@
+import "../styles.css";
+
 const App = () => (
   <div className="App">
-    <h1>Hello, outra coisa.</h1>
-
-    <h2>Teste2</h2>
-
-    <h3>image</h3>
+    <div className="container">
+      <div className="row">
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+      </div>
+      <div className="row">
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+      </div>
+      <div className="row">
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+      </div>
+      <div className="row">
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+        <div className="three columns">
+          <img
+            className="card"
+            src="https://artprojectsforkids.org/wp-content/uploads/2021/01/Rubber-Ducky.jpeg"
+          />
+        </div>
+      </div>
+    </div>
   </div>
 );
 

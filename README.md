@@ -45,7 +45,7 @@
 This project was developed with the following technologies:
 
 - [ReactJS](https://reactjs.org)
-
+- [Skeleton CSS](https://getskeleton.com)
 
 ## :information_source: How To Run
 
