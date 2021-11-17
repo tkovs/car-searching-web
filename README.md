@@ -13,23 +13,23 @@
   
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/tkovs/jogo-da-memoria.svg">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tkovs/reason-pomodoro.svg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tkovs/jogo-da-memoria.svg">
   <br />
-  <a href="https://github.com/tkovs/reason-pomodoro/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tkovs/reason-pomodoro.svg">
+  <a href="https://github.com/tkovs/jogo-da-memoria/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tkovs/jogo-da-memoria.svg">
   </a>
 
   <a href="https://github.com/tkovs/reason-pomodoro/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/tkovs/reason-pomodoro.svg">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/tkovs/jogo-da-memoria.svg">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/tkovs/reason-pomodoro.svg">
-  <a href="https://travis-ci.org/github/tkovs/pomodoro">
-    <img src="https://travis-ci.org/tkovs/pomodoro.svg?branch=master" alt="Build Status" />
+  <img alt="GitHub" src="https://img.shields.io/github/license/tkovs/jogo-da-memoria.svg">
+  <a href="https://travis-ci.org/github/tkovs/jogo-da-memoria">
+    <img src="https://travis-ci.org/tkovs/jogo-da-memoria.svg?branch=master" alt="Build Status" />
   </a>
 
   <br />
-  <img alt="Build status" src="https://api.netlify.com/api/v1/badges/c3404df3-bf7b-45b7-bc01-62175b0423d1/deploy-status">
+  
 </p>
 
 <p align="center">
@@ -45,10 +45,7 @@
 This project was developed with the following technologies:
 
 - [ReactJS](https://reactjs.org)
-- [Rescript](https://rescript-lang.org/)
-- [Reason UIKit](https://github.com/tkovs/reason-uikit)
-- [Testing Library](https://testing-library.com)
-- [Sentry](https://sentry.io/)
+
 
 ## :information_source: How To Run
 
