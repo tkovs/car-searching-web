@@ -19,7 +19,7 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tkovs/jogo-da-memoria.svg">
   </a>
 
-  <a href="https://github.com/tkovs/reason-pomodoro/issues">
+  <a href="https://github.com/tkovs/jogo-da-memoria/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/tkovs/jogo-da-memoria.svg">
   </a>
 
