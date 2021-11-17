@@ -4,14 +4,14 @@
 </h1>
 
 <h4 align="center">
-  Jogo da Memoria App with Rescript and React.
+  Jogo da Memoria made with React.
 </h4>
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/tkovs/reason-pomodoro.svg">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/tkovs/jogo-da-memoria.svg">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/tkovs/reason-pomodoro.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/tkovs/jogo-da-memoria.svg">
   
-  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/tkovs/reason-pomodoro.svg">
+  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/tkovs/jogo-da-memoria.svg">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/tkovs/reason-pomodoro.svg">
   <br />
@@ -61,56 +61,28 @@ $ git clone https://github.com/tkovs/jogo-da-memoria.git
 $ gh repo clone tkovs/jogo-da-memoria
 
 # Go into the repository
-$ cd reason-pomodoro
+$ cd jogo-da-memoria
 
 # Install dependencies
 $ yarn
 
 # Run the app on two terminals
 $ yarn start
-$ yarn server
 
-# Run the tests
-$ yarn test
 
-# Update snapshots
-$ yarn test -u
 ```
 
 ## :runner: Next steps
 
-- [x] Create Reason React project
-- [x] Config webpack and babel
-- [x] Create state and reducer
-- [x] Implement layout desktop
-- [x] Implement layout mobile
-- [x] Handle state
-- [x] Add unit tests for timer feature
-- [x] Add unit tests for reset feature
-- [x] Add unit tests for play feature
-- [x] Add unit tests for pause feature
-- [x] Add unit tests for jump feature
-- [x] Add unit tests for session feature
-- [x] Add unit tests for settings feature
-- [x] Add unit tests for reducer
-- [x] Add error monitoring by using [Sentry](https://sentry.io/)
-- [ ] Add cypress tests and configure GH Actions for pull requests
-- [x] [Deploy](http://pomodoro.tkovs.com)
-- [ ] Migrate html to [Reason UIKit](https://github.com/tkovs/reason-uikit)
+- [x] Iniciar um README
+- [ ] Selecionar biblioteca css
+- [ ] Montar design inicial do jogo
 
 ## :camera: Screenshots
 
-### Pomodoro
-
-![image](https://user-images.githubusercontent.com/8717661/98301198-266bfa00-1f99-11eb-83b8-f11ec4efa93d.png)
-
-### Settings
-
-![image](https://user-images.githubusercontent.com/8717661/98301628-d5103a80-1f99-11eb-8ecd-cfe2a4418082.png)
-
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/tkovs/reason-pomodoro/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/tkovs/jogo-da-memoria/blob/master/LICENSE) for more information.
 
 ---
 
