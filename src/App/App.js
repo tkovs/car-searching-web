@@ -1,13 +1,10 @@
 import Card from "../Card";
-import Paragraph from "../Paragraph";
 import "../styles.css";
 
 const App = () => (
   <div className="App">
     <div className="container">
-      <Paragraph texto={"Olá"} />
-      <Paragraph texto={"Tudo bem?"} />
-      <Paragraph texto={"Tchau"} />
+      <h1 id="title">Jodo da Memoria</h1>
     </div>
     <div className="container">
       <div className="row">
