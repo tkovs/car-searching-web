@@ -72,10 +72,22 @@ $ yarn start
 ## :runner: Next steps
 
 - [x] Iniciar um README
-- [ ] Selecionar biblioteca css
-- [ ] Montar design inicial do jogo
+- [x] Selecionar biblioteca css
+- [x] Montar design inicial do jogo
+- [ ] Utilizar imagens de Yu Gi Oh nos cards
+- [ ] Sortear os cards
+- [ ] Esconder os cards, e mostra-los com um clique
+- [ ] Gerenciar se dois cards clicados são da mesma imagem
+- [ ] Mensagem de sucesso caso o jogo seja finalizado
+- [ ] Botão para recomeçar o jogo
+- [ ] Adicionar licença
+- [ ] Mudar favicon
 
 ## :camera: Screenshots
+
+### Página inicial
+
+![Captura de Tela 2021-11-17 às 23 49 55](https://user-images.githubusercontent.com/8717661/142342780-d224a3f4-a886-4bd5-a3f4-2db5058f9b62.png)
 
 ## :memo: License
 
