@@ -3,22 +3,22 @@ import "../styles.css";
 
 const App = () => {
   
-  const cardlist = ["https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000010.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000011.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000012.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000013.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000014.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000015.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000020.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000021.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000010.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000011.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000012.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000013.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000014.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000015.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000020.png",
-  "https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/100000021.png"];
+  const cardlist = ["100000010",
+  "100000011",
+  "100000012",
+  "100000013",
+  "100000014",
+  "100000015",
+  "100000020",
+  "100000021",
+  "100000010",
+  "100000011",
+  "100000012",
+  "100000013",
+  "100000014",
+  "100000015",
+  "100000020",
+  "100000021"];
 
   return (
     <div className="App">
@@ -27,28 +27,28 @@ const App = () => {
       </div>
       <div className="container">
         <div className="row">
-          <Card src={cardlist[0]} />
-          <Card src={cardlist[1]} />
-          <Card src={cardlist[2]} />
-          <Card src={cardlist[3]} />
+          <Card id={cardlist[0]} />
+          <Card id={cardlist[1]} />
+          <Card id={cardlist[2]} />
+          <Card id={cardlist[3]} />
         </div>
         <div className="row">
-          <Card src={cardlist[4]} />
-          <Card src={cardlist[5]} />
-          <Card src={cardlist[6]} />
-          <Card src={cardlist[7]} />
+          <Card id={cardlist[4]} />
+          <Card id={cardlist[5]} />
+          <Card id={cardlist[6]} />
+          <Card id={cardlist[7]} />
         </div>
         <div className="row">
-          <Card src={cardlist[7]} />
-          <Card src={cardlist[6]} />
-          <Card src={cardlist[5]} />
-          <Card src={cardlist[4]} />
+          <Card id={cardlist[7]} />
+          <Card id={cardlist[6]} />
+          <Card id={cardlist[5]} />
+          <Card id={cardlist[4]} />
         </div>
         <div className="row">
-          <Card src={cardlist[3]} />
-          <Card src={cardlist[2]} />
-          <Card src={cardlist[1]} />
-          <Card src={cardlist[0]} />
+          <Card id={cardlist[3]} />
+          <Card id={cardlist[2]} />
+          <Card id={cardlist[1]} />
+          <Card id={cardlist[0]} />
         </div>
       </div>
     </div>
