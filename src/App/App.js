@@ -39,16 +39,16 @@ const App = () => {
           <Card id={cardlist[7]} />
         </div>
         <div className="row">
-          <Card id={cardlist[7]} />
-          <Card id={cardlist[6]} />
-          <Card id={cardlist[5]} />
-          <Card id={cardlist[4]} />
+          <Card id={cardlist[8]} />
+          <Card id={cardlist[9]} />
+          <Card id={cardlist[10]} />
+          <Card id={cardlist[11]} />
         </div>
         <div className="row">
-          <Card id={cardlist[3]} />
-          <Card id={cardlist[2]} />
-          <Card id={cardlist[1]} />
-          <Card id={cardlist[0]} />
+          <Card id={cardlist[12]} />
+          <Card id={cardlist[13]} />
+          <Card id={cardlist[14]} />
+          <Card id={cardlist[15]} />
         </div>
       </div>
     </div>
