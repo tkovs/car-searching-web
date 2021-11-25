@@ -62,7 +62,7 @@ const App = () => {
           <Card id={cardlist[15]} />
         </div>
 
-        <button onClick={generateCardList}>Shuffle</button>
+        <button onClick={handleRestart}>Shuffle</button>
 
       </div>
     </div>
