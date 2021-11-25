@@ -20,6 +20,7 @@ const generateCardList = () => {
     "100000020",
     "100000021",
   ];
+
   return cardlist.sort(() => 0.5 - Math.random());
 }
 
