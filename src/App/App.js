@@ -25,8 +25,11 @@ const generateCardList = () => {
 }
 
 const App = () => {
-
-  const cardlist = generateCardList();
+  const [cardlist, setCardlist] = useState(generateCardList());
+  
+  handleRestart = () => {
+    setCardlist(generateCardList())
+  }
 
   return (
     <div className="App">
