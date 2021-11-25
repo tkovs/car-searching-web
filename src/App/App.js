@@ -1,5 +1,6 @@
 import Card from "../Card";
 import "../styles.css";
+import { useState } from 'react';
 
 const generateCardList = () => {
   const cardlist = [
@@ -27,7 +28,7 @@ const generateCardList = () => {
 const App = () => {
   const [cardlist, setCardlist] = useState(generateCardList());
   
-  handleRestart = () => {
+  const handleRestart = () => {
     setCardlist(generateCardList())
   }
 
