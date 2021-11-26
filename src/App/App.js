@@ -5,17 +5,18 @@ import { useState } from 'react';
 const generateCardList = () => {
   const cardlist = [];
 
-  var i = 0
+  while (cardlist.length < 15) {
 
-  for (; i < 8; i++) {
+    var max = 95;
+    var min = 79;
 
-    const selectNum = Math.floor(Math.random() * 100 + 10);
+    const selectNum = Math.floor(Math.random() * (max - min)) + min;
 
-    cardlist.push(selectNum.toString());
-    cardlist.push(selectNum.toString());
+    if (!(cardlist.includes(selectNum.toString()))) {
 
-    console.log(cardlist)
-
+      cardlist.push(selectNum.toString());
+      cardlist.push(selectNum.toString());
+    }
   }
 
   return cardlist.sort(() => 0.5 - Math.random());
@@ -31,7 +32,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="container">
-        <h1 id="title">Jodo da Memoria</h1>
+        <h1 id="title">Jogo da Memória</h1>
       </div>
       <div className="container">
         <div className="row">
