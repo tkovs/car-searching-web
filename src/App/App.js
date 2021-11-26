@@ -1,7 +1,8 @@
 import Card from "../Card";
 import "../styles.css";
+import { useState } from 'react';
 
-const App = () => {
+const generateCardList = () => {
   const cardlist = [
     "100000010",
     "100000011",
@@ -20,6 +21,16 @@ const App = () => {
     "100000020",
     "100000021",
   ];
+
+  return cardlist.sort(() => 0.5 - Math.random());
+}
+
+const App = () => {
+  const [cardlist, setCardlist] = useState(generateCardList());
+  
+  const handleRestart = () => {
+    setCardlist(generateCardList())
+  }
 
   return (
     <div className="App">
@@ -51,6 +62,9 @@ const App = () => {
           <Card id={cardlist[14]} />
           <Card id={cardlist[15]} />
         </div>
+
+        <button onClick={handleRestart}>Shuffle</button>
+
       </div>
     </div>
   );
