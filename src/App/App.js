@@ -3,31 +3,27 @@ import "../styles.css";
 import { useState } from 'react';
 
 const generateCardList = () => {
-  const cardlist = [
-    "100000010",
-    "100000011",
-    "100000012",
-    "100000013",
-    "100000014",
-    "100000015",
-    "100000020",
-    "100000021",
-    "100000010",
-    "100000011",
-    "100000012",
-    "100000013",
-    "100000014",
-    "100000015",
-    "100000020",
-    "100000021",
-  ];
+  const cardlist = [];
+
+  var i = 0
+
+  for (; i < 8; i++) {
+
+    const selectNum = Math.floor(Math.random() * 100 + 10);
+
+    cardlist.push(selectNum.toString());
+    cardlist.push(selectNum.toString());
+
+    console.log(cardlist)
+
+  }
 
   return cardlist.sort(() => 0.5 - Math.random());
 }
 
 const App = () => {
   const [cardlist, setCardlist] = useState(generateCardList());
-  
+
   const handleRestart = () => {
     setCardlist(generateCardList())
   }
