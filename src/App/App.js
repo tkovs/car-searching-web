@@ -7,15 +7,15 @@ const generateCardList = () => {
 
   while (cardlist.length < 15) {
 
-    var max = 95;
-    var min = 79;
+    var max = 100;
+    var min = 20;
 
     const selectNum = Math.floor(Math.random() * (max - min)) + min;
 
-    if (!(cardlist.includes(selectNum.toString()))) {
+    if (!cardlist.includes(selectNum)) {
 
-      cardlist.push(selectNum.toString());
-      cardlist.push(selectNum.toString());
+      cardlist.push(selectNum);
+      cardlist.push(selectNum);
     }
   }
 
