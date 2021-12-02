@@ -1,5 +1,5 @@
 const Card = (props) => {
-  const url = `https://raw.githubusercontent.com/Perham94/YGOAnimeMangaHQPics/master/${100000000 + props.id}.png`;
+  const url = `https://ygoprodeck.com/pics/${props.id}.jpg`;
 
   return (
     <div className="three columns">
