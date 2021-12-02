@@ -3,31 +3,28 @@ import "../styles.css";
 import { useState } from 'react';
 
 const generateCardList = () => {
-  const cardlist = [
-    "100000010",
-    "100000011",
-    "100000012",
-    "100000013",
-    "100000014",
-    "100000015",
-    "100000020",
-    "100000021",
-    "100000010",
-    "100000011",
-    "100000012",
-    "100000013",
-    "100000014",
-    "100000015",
-    "100000020",
-    "100000021",
-  ];
+  const cardlist = [];
+
+  while (cardlist.length < 15) {
+
+    var max = 100;
+    var min = 20;
+
+    const selectNum = Math.floor(Math.random() * (max - min)) + min;
+
+    if (!cardlist.includes(selectNum)) {
+
+      cardlist.push(selectNum);
+      cardlist.push(selectNum);
+    }
+  }
 
   return cardlist.sort(() => 0.5 - Math.random());
 }
 
 const App = () => {
   const [cardlist, setCardlist] = useState(generateCardList());
-  
+
   const handleRestart = () => {
     setCardlist(generateCardList())
   }
@@ -35,7 +32,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="container">
-        <h1 id="title">Jodo da Memoria</h1>
+        <h1 id="title">Jogo da Memória</h1>
       </div>
       <div className="container">
         <div className="row">
