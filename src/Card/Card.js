@@ -1,9 +1,13 @@
-const Card = (props) => {
-  const url = `https://ygoprodeck.com/pics/${props.id}.jpg`;
+const Card = ({id , turn}) => {
+  const url = `https://ygoprodeck.com/pics/${id.codImg}.jpg`;
+
+  const back = 'https://images.ygoprodeck.com/images/cards/back_high.jpg'
+
+  const status = id.turnStatus;
 
   return (
-    <div className="three columns">
-      <img className="card" alt="alt" src={url} />
+    <div className="three columns" onClick={() => turn(id.uuid)}>
+      <img className="card" alt="alt" src={status ? url: back} />
     </div>
   );
 };
